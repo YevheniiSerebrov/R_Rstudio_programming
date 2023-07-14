@@ -1,4 +1,4 @@
-############ Завдання 1 ####################
+############ Р—Р°РІРґР°РЅРЅСЏ 1 ####################
 par(mfrow=c(3,2))
 x=seq(-2*pi,2*pi,by=0.01)
 y=tan(pi/2*x)
@@ -11,21 +11,21 @@ plot(x,y1,type='l',lty=5,col='red',ylab='sin(0.5x)',lwd=2)
 plot(x,y2,type='o',lty=4,col='blue',ylab='sin(x)cos(2x)')
 plot(x,y3,type='l',lty=2,col='orange',ylab='cos(2x)-sin(x)')
 plot(x,y4,type='l',lty=3,col='brown',ylab='sin(x^2-1)')
-############### Завдання 2 #################
+############### Р—Р°РІРґР°РЅРЅСЏ 2 #################
 library(datasets)
 data(airquality)
 airquality$Temp
 hist(airquality$Temp,xlab='Temperature',border="white", 
      col="blue",breaks=20)
 
-legend("topright", c("Частота Т"), fill=c("blue"))
-############### Завдання 3 #################
+legend("topright", c("Р§Р°СЃС‚РѕС‚Р° Рў"), fill=c("blue"))
+############### Р—Р°РІРґР°РЅРЅСЏ 3 #################
 library(datasets)
 data(airquality)
 airquality$Temp
 dotchart(airquality$Temp, xlab='Temperature', ylab = 'Frequency',
      col="red",cex = 1.1,  pch = 2)
-############### Завдання 4 #################
+############### Р—Р°РІРґР°РЅРЅСЏ 4 #################
 plot(1:20, type="n")
 a1=c(1:16)
 b1=c(18,12,15,13,16,11,9,7,10,13,6,3,1,4,2,0.5)
